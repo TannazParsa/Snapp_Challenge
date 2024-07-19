@@ -28,15 +28,16 @@
 
 
 **Usage:**
-1.**Launch List Screen**
+**Launch List Screen**
 - **View Launches:** Browse through a list of SpaceX launches with pagination.
 - **Select Launch:** Tap on a launch to view detailed information.
-- **Bookmark Launch:** Tap the "Bookmark" button to save or remove the launch from bookmarks.
-- **Open Wikipedia:** Tap the "Open Wikipedia" button to view the mission’s Wikipedia page if available.
-2.**Launch Detail Screen**
+
+
+
+**Launch Detail Screen**
 - **Mission Image:** Displays an image related to the launch.
 - **Mission Name & Flight Number:** Shows the mission's name and flight number.
 - **Description:** Provides a description of the launch.
 - **Date:** Displays the date of the launch.
-- **Bookmark Button:** Allows users to toggle the bookmark status.
-- **Wikipedia Button:** Opens the Wikipedia page if a URL is available.   
+- **Bookmark Launch:** Tap the "Bookmark" button to save or remove the launch from bookmarks.
+- **Open Wikipedia:** Tap the "Open Wikipedia" button to view the mission’s Wikipedia page if available.
