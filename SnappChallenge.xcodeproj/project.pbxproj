@@ -8,13 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B6969BA02C49D234003FB866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969B9F2C49D234003FB866 /* AppDelegate.swift */; };
-		B6969BA42C49D234003FB866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BA32C49D234003FB866 /* ViewController.swift */; };
-		B6969BA72C49D234003FB866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6969BA52C49D234003FB866 /* Main.storyboard */; };
 		B6969BA92C49D238003FB866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6969BA82C49D238003FB866 /* Assets.xcassets */; };
 		B6969BAC2C49D238003FB866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6969BAA2C49D238003FB866 /* LaunchScreen.storyboard */; };
-		B6969BB72C49D239003FB866 /* SnappChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BB62C49D239003FB866 /* SnappChallengeTests.swift */; };
-		B6969BC12C49D239003FB866 /* SnappChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BC02C49D239003FB866 /* SnappChallengeUITests.swift */; };
-		B6969BC32C49D239003FB866 /* SnappChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BC22C49D239003FB866 /* SnappChallengeUITestsLaunchTests.swift */; };
 		B6969BD52C4AD8F3003FB866 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BD42C4AD8F3003FB866 /* Launch.swift */; };
 		B6969BD72C4AD92C003FB866 /* LaunchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BD62C4AD92C003FB866 /* LaunchResponse.swift */; };
 		B6969BD92C4AD9F0003FB866 /* LaunchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BD82C4AD9F0003FB866 /* LaunchQuery.swift */; };
@@ -25,38 +20,19 @@
 		B6969BE52C4AE00D003FB866 /* LaunchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BE42C4AE00D003FB866 /* LaunchListViewModel.swift */; };
 		B6969BE72C4AE06D003FB866 /* LaunchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BE62C4AE06D003FB866 /* LaunchListViewController.swift */; };
 		B6969BE92C4AE302003FB866 /* LaunchTablViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BE82C4AE302003FB866 /* LaunchTablViewCell.swift */; };
+		B6969BEB2C4B0B96003FB866 /* LaunchDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BEA2C4B0B96003FB866 /* LaunchDetailViewModel.swift */; };
+		B6969BED2C4B0BF2003FB866 /* LaunchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BEC2C4B0BF2003FB866 /* LaunchDetailViewController.swift */; };
+		B6969BF22C4B0F1B003FB866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6969BF12C4B0F1B003FB866 /* Main.storyboard */; };
+		B6969BF52C4B0F51003FB866 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BF42C4B0F51003FB866 /* ImageCacheManager.swift */; };
+		B6969BF92C4B1C70003FB866 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6969BF82C4B1C70003FB866 /* APIConstant.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B6969BB32C49D239003FB866 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B6969B942C49D234003FB866 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6969B9B2C49D234003FB866;
-			remoteInfo = SnappChallenge;
-		};
-		B6969BBD2C49D239003FB866 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B6969B942C49D234003FB866 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6969B9B2C49D234003FB866;
-			remoteInfo = SnappChallenge;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B6969B9C2C49D234003FB866 /* SnappChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnappChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6969B9F2C49D234003FB866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6969BA32C49D234003FB866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B6969BA62C49D234003FB866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6969BA82C49D238003FB866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6969BAB2C49D238003FB866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6969BAD2C49D238003FB866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6969BB22C49D239003FB866 /* SnappChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6969BB62C49D239003FB866 /* SnappChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappChallengeTests.swift; sourceTree = "<group>"; };
-		B6969BBC2C49D239003FB866 /* SnappChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6969BC02C49D239003FB866 /* SnappChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappChallengeUITests.swift; sourceTree = "<group>"; };
-		B6969BC22C49D239003FB866 /* SnappChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B6969BD42C4AD8F3003FB866 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 		B6969BD62C4AD92C003FB866 /* LaunchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchResponse.swift; sourceTree = "<group>"; };
 		B6969BD82C4AD9F0003FB866 /* LaunchQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchQuery.swift; sourceTree = "<group>"; };
@@ -67,24 +43,15 @@
 		B6969BE42C4AE00D003FB866 /* LaunchListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchListViewModel.swift; sourceTree = "<group>"; };
 		B6969BE62C4AE06D003FB866 /* LaunchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchListViewController.swift; sourceTree = "<group>"; };
 		B6969BE82C4AE302003FB866 /* LaunchTablViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchTablViewCell.swift; sourceTree = "<group>"; };
+		B6969BEA2C4B0B96003FB866 /* LaunchDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailViewModel.swift; sourceTree = "<group>"; };
+		B6969BEC2C4B0BF2003FB866 /* LaunchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailViewController.swift; sourceTree = "<group>"; };
+		B6969BF12C4B0F1B003FB866 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B6969BF42C4B0F51003FB866 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		B6969BF82C4B1C70003FB866 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B6969B992C49D234003FB866 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6969BAF2C49D239003FB866 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6969BB92C49D239003FB866 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,8 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				B6969B9E2C49D234003FB866 /* SnappChallenge */,
-				B6969BB52C49D239003FB866 /* SnappChallengeTests */,
-				B6969BBF2C49D239003FB866 /* SnappChallengeUITests */,
 				B6969B9D2C49D234003FB866 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				B6969B9C2C49D234003FB866 /* SnappChallenge.app */,
-				B6969BB22C49D239003FB866 /* SnappChallengeTests.xctest */,
-				B6969BBC2C49D239003FB866 /* SnappChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,37 +80,15 @@
 		B6969B9E2C49D234003FB866 /* SnappChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				B6969BCF2C4AD688003FB866 /* Models */,
-				B6969BD02C4AD690003FB866 /* Network */,
-				B6969BD12C4AD6B1003FB866 /* Controller */,
-				B6969BE32C4ADFF2003FB866 /* ViewModels */,
-				B6969BD22C4AD6BA003FB866 /* Views */,
-				B6969BD32C4AD6D1003FB866 /* Utilities */,
 				B6969B9F2C49D234003FB866 /* AppDelegate.swift */,
-				B6969BA32C49D234003FB866 /* ViewController.swift */,
-				B6969BA52C49D234003FB866 /* Main.storyboard */,
-				B6969BA82C49D238003FB866 /* Assets.xcassets */,
-				B6969BAA2C49D238003FB866 /* LaunchScreen.storyboard */,
+				B6969BF12C4B0F1B003FB866 /* Main.storyboard */,
 				B6969BAD2C49D238003FB866 /* Info.plist */,
+				B6969BEE2C4B0E28003FB866 /* Core */,
+				B6969BEF2C4B0E2D003FB866 /* Features */,
+				B6969BF02C4B0E37003FB866 /* Resources */,
+				B6969BAA2C49D238003FB866 /* LaunchScreen.storyboard */,
 			);
 			path = SnappChallenge;
-			sourceTree = "<group>";
-		};
-		B6969BB52C49D239003FB866 /* SnappChallengeTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6969BB62C49D239003FB866 /* SnappChallengeTests.swift */,
-			);
-			path = SnappChallengeTests;
-			sourceTree = "<group>";
-		};
-		B6969BBF2C49D239003FB866 /* SnappChallengeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B6969BC02C49D239003FB866 /* SnappChallengeUITests.swift */,
-				B6969BC22C49D239003FB866 /* SnappChallengeUITestsLaunchTests.swift */,
-			);
-			path = SnappChallengeUITests;
 			sourceTree = "<group>";
 		};
 		B6969BCF2C4AD688003FB866 /* Models */ = {
@@ -160,20 +101,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		B6969BD02C4AD690003FB866 /* Network */ = {
+		B6969BD02C4AD690003FB866 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 				B6969BDE2C4ADB2F003FB866 /* APIs */,
 				B6969BDA2C4ADA55003FB866 /* NetworkService.swift */,
 				B6969BDC2C4ADB1E003FB866 /* APIRequest.swift */,
+				B6969BF82C4B1C70003FB866 /* APIConstant.swift */,
 			);
-			path = Network;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		B6969BD12C4AD6B1003FB866 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				B6969BE62C4AE06D003FB866 /* LaunchListViewController.swift */,
+				B6969BEC2C4B0BF2003FB866 /* LaunchDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -206,8 +149,46 @@
 			isa = PBXGroup;
 			children = (
 				B6969BE42C4AE00D003FB866 /* LaunchListViewModel.swift */,
+				B6969BEA2C4B0B96003FB866 /* LaunchDetailViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B6969BEE2C4B0E28003FB866 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B6969BF32C4B0F39003FB866 /* Caching */,
+				B6969BD02C4AD690003FB866 /* Networking */,
+				B6969BCF2C4AD688003FB866 /* Models */,
+				B6969BD32C4AD6D1003FB866 /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B6969BEF2C4B0E2D003FB866 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B6969BD12C4AD6B1003FB866 /* Controller */,
+				B6969BD22C4AD6BA003FB866 /* Views */,
+				B6969BE32C4ADFF2003FB866 /* ViewModels */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B6969BF02C4B0E37003FB866 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6969BA82C49D238003FB866 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B6969BF32C4B0F39003FB866 /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+				B6969BF42C4B0F51003FB866 /* ImageCacheManager.swift */,
+			);
+			path = Caching;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,42 +211,6 @@
 			productReference = B6969B9C2C49D234003FB866 /* SnappChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B6969BB12C49D239003FB866 /* SnappChallengeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6969BC92C49D239003FB866 /* Build configuration list for PBXNativeTarget "SnappChallengeTests" */;
-			buildPhases = (
-				B6969BAE2C49D239003FB866 /* Sources */,
-				B6969BAF2C49D239003FB866 /* Frameworks */,
-				B6969BB02C49D239003FB866 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B6969BB42C49D239003FB866 /* PBXTargetDependency */,
-			);
-			name = SnappChallengeTests;
-			productName = SnappChallengeTests;
-			productReference = B6969BB22C49D239003FB866 /* SnappChallengeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B6969BBB2C49D239003FB866 /* SnappChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6969BCC2C49D239003FB866 /* Build configuration list for PBXNativeTarget "SnappChallengeUITests" */;
-			buildPhases = (
-				B6969BB82C49D239003FB866 /* Sources */,
-				B6969BB92C49D239003FB866 /* Frameworks */,
-				B6969BBA2C49D239003FB866 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B6969BBE2C49D239003FB866 /* PBXTargetDependency */,
-			);
-			name = SnappChallengeUITests;
-			productName = SnappChallengeUITests;
-			productReference = B6969BBC2C49D239003FB866 /* SnappChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -278,14 +223,6 @@
 				TargetAttributes = {
 					B6969B9B2C49D234003FB866 = {
 						CreatedOnToolsVersion = 15.2;
-					};
-					B6969BB12C49D239003FB866 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = B6969B9B2C49D234003FB866;
-					};
-					B6969BBB2C49D239003FB866 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = B6969B9B2C49D234003FB866;
 					};
 				};
 			};
@@ -303,8 +240,6 @@
 			projectRoot = "";
 			targets = (
 				B6969B9B2C49D234003FB866 /* SnappChallenge */,
-				B6969BB12C49D239003FB866 /* SnappChallengeTests */,
-				B6969BBB2C49D239003FB866 /* SnappChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -314,23 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6969BF22C4B0F1B003FB866 /* Main.storyboard in Resources */,
 				B6969BAC2C49D238003FB866 /* LaunchScreen.storyboard in Resources */,
 				B6969BA92C49D238003FB866 /* Assets.xcassets in Resources */,
-				B6969BA72C49D234003FB866 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6969BB02C49D239003FB866 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6969BBA2C49D239003FB866 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,62 +262,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6969BEB2C4B0B96003FB866 /* LaunchDetailViewModel.swift in Sources */,
 				B6969BE02C4ADB41003FB866 /* LaunchesRequest.swift in Sources */,
 				B6969BE52C4AE00D003FB866 /* LaunchListViewModel.swift in Sources */,
-				B6969BA42C49D234003FB866 /* ViewController.swift in Sources */,
 				B6969BA02C49D234003FB866 /* AppDelegate.swift in Sources */,
 				B6969BD52C4AD8F3003FB866 /* Launch.swift in Sources */,
 				B6969BD92C4AD9F0003FB866 /* LaunchQuery.swift in Sources */,
 				B6969BD72C4AD92C003FB866 /* LaunchResponse.swift in Sources */,
 				B6969BE92C4AE302003FB866 /* LaunchTablViewCell.swift in Sources */,
+				B6969BF92C4B1C70003FB866 /* APIConstant.swift in Sources */,
+				B6969BF52C4B0F51003FB866 /* ImageCacheManager.swift in Sources */,
 				B6969BE22C4ADBC6003FB866 /* BookmarkManager.swift in Sources */,
+				B6969BED2C4B0BF2003FB866 /* LaunchDetailViewController.swift in Sources */,
 				B6969BDD2C4ADB1E003FB866 /* APIRequest.swift in Sources */,
 				B6969BDB2C4ADA55003FB866 /* NetworkService.swift in Sources */,
 				B6969BE72C4AE06D003FB866 /* LaunchListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6969BAE2C49D239003FB866 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6969BB72C49D239003FB866 /* SnappChallengeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6969BB82C49D239003FB866 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6969BC12C49D239003FB866 /* SnappChallengeUITests.swift in Sources */,
-				B6969BC32C49D239003FB866 /* SnappChallengeUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B6969BB42C49D239003FB866 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6969B9B2C49D234003FB866 /* SnappChallenge */;
-			targetProxy = B6969BB32C49D239003FB866 /* PBXContainerItemProxy */;
-		};
-		B6969BBE2C49D239003FB866 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6969B9B2C49D234003FB866 /* SnappChallenge */;
-			targetProxy = B6969BBD2C49D239003FB866 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		B6969BA52C49D234003FB866 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6969BA62C49D234003FB866 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B6969BAA2C49D238003FB866 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -460,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -517,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -585,82 +471,6 @@
 			};
 			name = Release;
 		};
-		B6969BCA2C49D239003FB866 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4945R7GGN6;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.snappChallenge.app.SnappChallengeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnappChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnappChallenge";
-			};
-			name = Debug;
-		};
-		B6969BCB2C49D239003FB866 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4945R7GGN6;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.snappChallenge.app.SnappChallengeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnappChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnappChallenge";
-			};
-			name = Release;
-		};
-		B6969BCD2C49D239003FB866 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4945R7GGN6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.snappChallenge.app.SnappChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SnappChallenge;
-			};
-			name = Debug;
-		};
-		B6969BCE2C49D239003FB866 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4945R7GGN6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.snappChallenge.app.SnappChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SnappChallenge;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -678,24 +488,6 @@
 			buildConfigurations = (
 				B6969BC72C49D239003FB866 /* Debug */,
 				B6969BC82C49D239003FB866 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6969BC92C49D239003FB866 /* Build configuration list for PBXNativeTarget "SnappChallengeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6969BCA2C49D239003FB866 /* Debug */,
-				B6969BCB2C49D239003FB866 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6969BCC2C49D239003FB866 /* Build configuration list for PBXNativeTarget "SnappChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6969BCD2C49D239003FB866 /* Debug */,
-				B6969BCE2C49D239003FB866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

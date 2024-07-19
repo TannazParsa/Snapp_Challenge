@@ -16,10 +16,12 @@ struct Launch: Codable {
 
     struct Links: Codable {
         let patch: Patch?
+        let wikipedia: String?
     }
 
     struct Patch: Codable {
         let small: String?
+        let large: String?
     }
 
     enum CodingKeys: String, CodingKey {

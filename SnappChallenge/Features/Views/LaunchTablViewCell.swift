@@ -8,7 +8,11 @@
 import Foundation
 import UIKit
 
+/// `LaunchTableViewCell` is a custom table view cell used to display details about a SpaceX launch.
 class LaunchTableViewCell: UITableViewCell {
+
+    // MARK: - UI Components
+
     private let missionImageView = UIImageView()
     private let missionNameLabel = UILabel()
     private let flightNumberLabel = UILabel()
@@ -19,15 +23,34 @@ class LaunchTableViewCell: UITableViewCell {
     private var viewModel: LaunchListViewModel?
     private var indexPath: IndexPath?
 
+    // MARK: - Initializers
+
+    /// Initializes the cell with the given style and reuse identifier.
+    ///
+    /// - Parameters:
+    ///   - style: The cell style.
+    ///   - reuseIdentifier: The reuse identifier.
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupUI()
     }
 
+    /// Required initializer with a coder, which is not implemented.
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
+    // MARK: - Lifecycle Methods
+
+    /// Prepares the cell for reuse by resetting the mission image to a placeholder.
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        missionImageView.image = UIImage(named: "rocket-placeholder")
+    }
+
+    // MARK: - Setup Methods
+
+    /// Sets up the user interface components and layout constraints.
     private func setupUI() {
         // Add subviews
         contentView.addSubview(missionImageView)
@@ -85,6 +108,14 @@ class LaunchTableViewCell: UITableViewCell {
         ])
     }
 
+    // MARK: - Configuration Method
+
+    /// Configures the cell with the given launch data, view model, and index path.
+    ///
+    /// - Parameters:
+    ///   - launch: The launch data to display.
+    ///   - viewModel: The view model responsible for managing the data.
+    ///   - indexPath: The index path of the cell.
     func configure(with launch: Launch, viewModel: LaunchListViewModel, indexPath: IndexPath) {
         self.viewModel = viewModel
         self.indexPath = indexPath
@@ -99,11 +130,14 @@ class LaunchTableViewCell: UITableViewCell {
         viewModel.loadImage(for: indexPath)
     }
 
+    // MARK: - Update Image Method
+
+    /// Updates the mission image view with the given image.
+    ///
+    /// - Parameter image: The image to display.
     func updateImage(_ image: UIImage?) {
-      DispatchQueue.main.async {
-        
-        self.missionImageView.image = image
-      }
+        DispatchQueue.main.async {
+            self.missionImageView.image = image
+        }
     }
 }
-
