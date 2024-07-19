@@ -18,7 +18,9 @@
 - Xcode 11.0 or later
 
 **Architecture:**
+
 ##MVVM Design Pattern##
+
 - **Model:** Represents the data layer (e.g., Launch, LaunchResponse, NetworkService).
 - **View:** UI components that display data (e.g., LaunchListViewController, LaunchDetailViewController, LaunchTableViewCell).
 - **ViewModel:** Manages the data for views and handles business logic (e.g., LaunchListViewModel, LaunchDetailViewModel).
@@ -28,6 +30,7 @@
 
 
 **Usage:**
+
 **Launch List Screen**
 - **View Launches:** Browse through a list of SpaceX launches with pagination.
 - **Select Launch:** Tap on a launch to view detailed information.
